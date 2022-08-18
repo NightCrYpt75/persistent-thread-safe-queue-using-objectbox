@@ -1,0 +1,38 @@
+buildscript {
+    // Extra property to define the ObjectBox version.
+    ext.objectboxVersion = "3.2.1"
+    repositories {
+        mavenCentral() // Note: 2.9.0 and older are available on jcenter().
+    }
+    dependencies {
+        // Add the ObjectBox plugin.
+        classpath("io.objectbox:objectbox-gradle-plugin:$objectboxVersion")
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: "java-library"
+
+apply plugin: "io.objectbox"
+
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'io.objectbox:objectbox-maven-plugin:1.3.0'
+}
+
+test {
+    useJUnitPlatform()
+}

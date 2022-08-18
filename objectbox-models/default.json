@@ -1,0 +1,100 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2005637749772739563",
+      "lastPropertyId": "3:1672369363295964998",
+      "name": "Animal",
+      "properties": [
+        {
+          "id": "1:1056689899923680231",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:1156670538878602834",
+          "name": "age",
+          "type": 5
+        },
+        {
+          "id": "3:1672369363295964998",
+          "name": "gender",
+          "type": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8658722619858073457",
+      "lastPropertyId": "4:6405125806048295383",
+      "name": "Dog",
+      "properties": [
+        {
+          "id": "1:4962583415842172854",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:5168088255912766233",
+          "name": "age",
+          "type": 5
+        },
+        {
+          "id": "3:585871991091991538",
+          "name": "gender",
+          "type": 4
+        },
+        {
+          "id": "4:6405125806048295383",
+          "name": "noOfTeeth",
+          "type": 5
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:6999963512808324211",
+      "lastPropertyId": "4:8151094282998827260",
+      "name": "LameDog",
+      "properties": [
+        {
+          "id": "1:8450147586450920021",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:5383190571862716645",
+          "name": "age",
+          "type": 5
+        },
+        {
+          "id": "3:6811390144953371060",
+          "name": "gender",
+          "type": 4
+        },
+        {
+          "id": "4:8151094282998827260",
+          "name": "noOfLegs",
+          "type": 5
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:6999963512808324211",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
